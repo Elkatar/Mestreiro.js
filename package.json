@@ -1,0 +1,22 @@
+{
+  "name": "mestreiro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "node .",
+    "build" :"npm install"
+  },
+  "author": "@willbarros77",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "express": "^4.18.2",
+    "puppeteer-stream": "^3.0.7",
+    "roll": "^1.3.1",
+    "socket.io": "^4.7.2",
+    "sqlite3": "^5.1.6",
+    "systeminformation": "^5.21.8"
+  }
+}
