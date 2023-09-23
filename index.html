@@ -50,7 +50,7 @@
     </div>
     <script>
         function fetchSystemStatus() {
-            fetch('http://localhost:1000/systemstatus')
+            fetch('https://mestreirojs.onrender.com/systemstatus')
                 .then(response => response.json())
                 .then(data => {
                     // Atualize os elementos HTML com os dados da CPU e memória
