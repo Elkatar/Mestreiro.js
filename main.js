@@ -15,10 +15,8 @@ const http = require('http');
 const socketIO = require('socket.io'); 
 const path = require('path');
 const si = require('systeminformation');
-const  { REST, Routes } = require('discord.js'); //TOKEN : MTE1NDk0MTc0NjcyMDAxNDQyNg.GakS7Z.DjFHyVkXQsp1r4St1HKaLdHFZ0YnUQW1U2bslE
-const { launch, getStream } = require("puppeteer-stream");
-const sqlite3 = require('sqlite3').verbose();
-const db = new sqlite3.Database(':memory:');
+
+
 const Roll = require('roll');
 
 const port = process.env.PORT || 1000;
